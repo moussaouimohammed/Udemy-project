@@ -1,0 +1,21 @@
+.slick-arrow.slick-next::before {
+
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+.slick-arrow.slick-prev::before {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
