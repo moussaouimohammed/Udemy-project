@@ -3,7 +3,7 @@ import Product from './Product'
 import productsData from './productsData'
 import Slider from 'react-slick'
 
-const ProductComp = ({ image }) => {
+const ProductComp = () => {
   const settings = {
     infinite: false,
     className: 'center',
@@ -41,7 +41,7 @@ const ProductComp = ({ image }) => {
     <div>
       <Slider {...settings}>
         {productsData.map(({ id, name, image, price, prevprice }) => (
-          <div className="grid px-2 mt-8 space-x-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 ">
+          <div className="mt-8 grid space-x-4 px-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 ">
             <Product
               key={id}
               name={name}

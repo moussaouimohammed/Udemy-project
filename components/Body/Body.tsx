@@ -21,7 +21,7 @@ const Body = (data, imagedata) => {
       <Hero />
       <Products />
       <div className="px-10">
-        <ProductComp image={imagedata} />
+        <ProductComp />
       </div>
       <div className="mx-auto mt-10 px-3 lg:container">
         <h2 className="mt-6 text-2xl  font-bold md:w-2/3 lg:w-1/2">
